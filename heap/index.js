@@ -23,7 +23,7 @@ class MinHeap {
 
         let smallest = i
 
-        if (l < this.heapSize && this.arr[l] < this.arr[i]) {
+        if (l < this.heapSize && this.arr[l] < this.arr[smallest]) {
             smallest = l
         }
 
